@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/02-bases" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/03-gifs-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/04-country-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/05-pipes-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/06-reactive-forms-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/07-lifecycle-hooks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/08-teslo-shop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/09-my-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/basico/10-maps-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro/11-calculator-zoneless" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro/12-pokemon-ssr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro/13-github-issues" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro/14-company-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro/15-my-workspace" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/pro/16-i18n-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/socket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/socket/01-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Angular/socket/02-basico" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Astro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Astro/01-foundation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Astro/02-pokemon-static" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Astro/03-blog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Astro/04-astro-http" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Conceptos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Conceptos/CleanSolid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Conceptos/Git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Conceptos/ReactiveRx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Html_Css" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Java/Basico" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/bases" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/bases/01-typescript-intro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/bases/02-car-dealer-ship" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices/01-Reforzamiento" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices/01-Reforzamiento/products-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices/02-products-App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices/02-products-App/client-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices/02-products-App/orders-ms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Nest/microservices/02-products-App/products-ms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../SQL" vcs="Git" />
+  </component>
+</project>
