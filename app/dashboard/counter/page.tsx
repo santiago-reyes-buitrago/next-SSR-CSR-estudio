@@ -1,7 +1,19 @@
-export default function Counterpage() {
+import {Metadata} from "next";
+import {Counter} from "@/app/dashboard/counter/components/Counter";
+
+
+export const metadata:Metadata = {
+    title: "Counter",
+}
+
+
+const Counterpage = () => {
+
     return (
-        <h2>
-            Counter page
-        </h2>
+        <>
+            <Counter value={30}/>
+        </>
     )
 }
+
+export default Counterpage;
