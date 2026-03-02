@@ -1,6 +1,6 @@
 import {PokemonResponseInterface} from "@/app/dashboard/pokemons/core/interfaces/Response/pokemonResponse.interface";
 import {SimplePokemonInterface} from "@/app/dashboard/pokemons/core/interfaces/Locals/simplePokemon.interface";
-import {PokemonCard} from "@/app/dashboard/pokemons/components/PokemonCard";
+import {PokemonGrid} from "@/app/dashboard/pokemons/components/PokemonGrid";
 
 const getPokemons = async (limit = 20, offset = 0): Promise<SimplePokemonInterface[]> => {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}`)
@@ -17,10 +17,8 @@ const PokemonPage = async () => {
     const pokemons = await getPokemons(151);
     return (
         <div className="flex flex-col">
-            <h2>Pokemon page</h2>
-            <div className="flex flex-wrap gap-10 items-center justify-center">
-                {pokemons.map(async (pokemon) => <PokemonCard key={pokemon.id} {...pokemon}/>)}
-            </div>
+            <span className="text-5xl my-2">Listado de Pokemons <small>estatico</small></span>
+            <PokemonGrid pokemons={pokemons}/>
         </div>
     );
 };
