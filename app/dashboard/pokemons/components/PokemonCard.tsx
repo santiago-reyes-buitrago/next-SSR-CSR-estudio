@@ -1,21 +1,12 @@
-import {
-    PokemonResponseDataInterface
-} from "@/app/dashboard/pokemons/core/interfaces/Response/pokemonResponseData.interface";
 import Image from "next/image";
 import {SimplePokemonInterface} from "@/app/dashboard/pokemons/core/interfaces/Locals/simplePokemon.interface";
 import Link from "next/link";
 import {IoHeartOutline} from "react-icons/io5";
-
 type Props = SimplePokemonInterface
 
-const getPokemon = async (id: string): Promise<PokemonResponseDataInterface> => {
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
-    return await response.json() as PokemonResponseDataInterface
-}
-
 export const PokemonCard = async ({id, name}: Props) => {
-    const pokemon = await getPokemon(id);
-    const photo = pokemon.sprites.other?.dream_world.front_default ?? '';
+    const photo = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id ?? '0'}.svg`;
+
     return (
         <>
             <div className="mx-auto right-0 mt-2 w-60">
@@ -23,11 +14,13 @@ export const PokemonCard = async ({id, name}: Props) => {
                     <div className="text-center p-6 bg-gray-800 border-b">
                         <Image src={photo} className="h-24 w-24 text-white rounded-full mx-auto" alt={name}
                                width={32}
-                               height={32}/>
+                               height={32}
+                               priority={false}
+                        />
                         <p className="capitalize pt-2 text-lg font-semibold text-gray-50">{name}</p>
                         <div className="mt-5">
                             <Link
-                                href={`/pokemon/${name}`}
+                                href={`/dashboard/pokemon/${id}`}
                                 className="border rounded-full py-2 px-4 text-xs font-semibold text-gray-100
                                 hover:bg-gray-100 hover:text-gray-800 focus:outline-none cursor-pointer "
                             >
