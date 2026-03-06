@@ -10,6 +10,10 @@ interface Props {
     params: Promise<Params>
 }
 
+export async function generateStaticParams(){
+    return Array.from({length: 151}, (_, i) => ({id: `${i+1}`}))
+}
+
 export async function generateMetadata({ params }: Props, parent: ResolvingMetadata): Promise<Metadata> {
     const { id } = await params
     const pokemon = await getPokemon(id);
