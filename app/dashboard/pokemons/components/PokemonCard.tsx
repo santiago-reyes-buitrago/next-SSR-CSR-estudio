@@ -2,9 +2,11 @@ import Image from "next/image";
 import {SimplePokemonInterface} from "@/app/dashboard/pokemons/core/interfaces/Locals/simplePokemon.interface";
 import Link from "next/link";
 import {IoHeartOutline} from "react-icons/io5";
+
 type Props = SimplePokemonInterface
 
 export const PokemonCard = async ({id, name}: Props) => {
+    'use cache'
     const photo = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id ?? '0'}.svg`;
 
     return (
@@ -20,7 +22,7 @@ export const PokemonCard = async ({id, name}: Props) => {
                         <p className="capitalize pt-2 text-lg font-semibold text-gray-50">{name}</p>
                         <div className="mt-5">
                             <Link
-                                href={`/dashboard/pokemon/${id}`}
+                                href={`/dashboard/pokemons/${name}`}
                                 className="border rounded-full py-2 px-4 text-xs font-semibold text-gray-100
                                 hover:bg-gray-100 hover:text-gray-800 focus:outline-none cursor-pointer "
                             >
